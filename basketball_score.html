@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="score.css">
+        <title>Basketball Score</title>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="card">
+                    <span id="homescore" class="score">0</span>
+                </div>
+                <div class="buttons">
+                    <button class="plusone" onclick="plusOne()">+1</button>
+                    <button class="plustwo" onclick="plusTwo()">+2</button>
+                    <button class="plusthree" onclick="plusThree()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="card">
+                    <span id="guestscore" class="score">0</span>
+                </div>
+                <div class="buttons">
+                    <button class="plusone" onclick="plusOneG()">+1</button>
+                    <button class="plustwo" onclick="plusTwoG()">+2</button>
+                    <button class="plusthree" onclick="plusThreeG()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="score.js"></script>
+    </body>
+</html>
