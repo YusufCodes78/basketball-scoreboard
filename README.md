@@ -1,2 +1,1 @@
-# scrimba
-Basketball score card
+#Basketball score card
