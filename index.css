@@ -12,7 +12,7 @@ body {
 }
 .card{
     background: #080001;
-    width: 120px;
+    width: 150px;
     height: 90px;
     border-radius: 15px;
     padding: 10px;
@@ -34,7 +34,7 @@ body {
     margin: auto;
     margin-top: 15px;
 }
-button{
+.btn{
     padding: 5px;
     width: 35px;
     margin: 3px;
@@ -45,11 +45,22 @@ button{
     background: #1B244A;
     color: #9AABD8;  
 }
-button:hover{
+.btn:hover{
     background: #9AABD8;
     color: #1B244A;
     resize: none;
 }
-button:focus, button:active{
+.btn:focus, button:active{
     resize: none;
+}
+#reset{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
 }
